@@ -24,7 +24,7 @@ This script:
 - ⚡ Works on **Linux & MacOS** with only `curl`, `grep`, and `perl`
 ## Preview
 <p align="center">
-  <img src="https://i.imgur.com/zgpZtiD.png" alt="idor-pcap-scanner" width="600">
+  <img src="https://i.imgur.com/iLXIpNE.png" alt="idor-pcap-scanner" width="600">
 </p>
 
 ---
