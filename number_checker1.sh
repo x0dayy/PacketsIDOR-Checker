@@ -79,7 +79,7 @@ for (( id=START; id<=END; id++ )); do
       [[ -z "$dlpath" ]] && dlpath="/download/$id"
 
       # Build full URL
-      [[ "$dlpath" =~ ^https?:// ]] && dlurl="$dlpath" || dlurl="${HOST%/}${dlpath}"
+      [[ "$dlpath" =~ ^https?:// ]] && dlurl="$dlpath" || dlurl="${HOST%/}/${dlpath#/}"
 
       echo "    -> downloading $dlurl"
       curl -sS -L --max-time "$TIMEOUT" -o "$PCAP_DIR/$id.pcap" "$dlurl" || echo "    (download failed)"
