@@ -22,6 +22,10 @@ This script:
 - 📡 **Auto PCAP download** mode (`./pcaps/`)
 - 🕵️ **Debug mode** to see skipped pages
 - ⚡ Works on **Linux & MacOS** with only `curl`, `grep`, and `perl`
+## Preview
+<p align="center">
+  <img src="https://i.imgur.com/zgpZtiD.png" alt="idor-pcap-scanner" width="600">
+</p>
 
 ---
 
